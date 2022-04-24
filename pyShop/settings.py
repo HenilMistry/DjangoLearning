@@ -120,6 +120,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# henil mistry added the settings...
+EMAIL_HOST = 'Smpt.gmail.com'
+EMAI_PORT = 587
+EMAIL_HOST_USER = '20ce054@charusat.edu.in'
+EMAIL_HOST_PASSWORD = 'HenilMistry@143'
+EMAIL_USE_SSL = True
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
